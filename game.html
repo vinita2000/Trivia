@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Trivia</title>
+	
+	<meta name="viewpoint" content="width=device-width" initial-scale="1.0">
+	<meta http-equip="X-UA-compatible" content="ie=edge">
+	
+<!---------------------------------bootstrapstylesheet----------------------------------->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 		crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Balsamiq+Sans&family=Courgette&family=Roboto+Slab&display=swap" rel="stylesheet"> 
+
+
+
+<!---------------------------------my stylesheet----------------------------------->
+
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/game.css" type="text/css">
+	
+<!--------------------------------font awesome----------------------------------->
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	</head>
+	
+	
+	
+	<body>
+        <div class="container">
+            
+            <div id="game" class="justify-center flex-column">
+                <div id="hud">
+                    <img src="images/question.png" class="question-image">
+                    <div id="hud-item" class="row">
+                        <div class="col-sm-6">
+                        <p class="hud-prefix">
+                            Question
+                        </p>
+                       
+                        <h1 class="hud-main-text" id="questionCounter">
+                           
+                        </h1>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <p class="hud-prefix">
+                                Score
+                            </p>
+                            <h1 class="hud-main-text" id="score">
+                                0
+                            </h1>
+                            </div>
+                    </div>
+                </div>
+                <!----------<div id="hud">
+                    <div id="hud-item">
+                        <p class="hud-prefix">
+                            Score
+                        </p>
+                        <h1 class="hud-main-text" id="score">
+                            0
+                        </h1>
+                    </div>
+                </div>------------->
+
+                <h2 id="question">What is the answer to this question ?</h2>
+                <div class="choice-container">
+                    <p class="choice-prefix">A</p>
+                    <p class="choice-text" data-number="1">Choice 1</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">B</p>
+                    <p class="choice-text" data-number="2">Choice 2</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">C</p>
+                    <p class="choice-text" data-number="3">Choice 3</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">D</p>
+                    <p class="choice-text" data-number="4">Choice 4</p>
+                </div>
+            </div>
+        </div>
+
+   
+	
+
+
+       
+		
+		
+		
+		
+		
+		
+  		
+  		
+		
+		
+
+
+
+
+	<!-------------------------------------- JS, Popper.js, and jQuery --------------------------------------------------->
+    <script src="index.js" charset="utf-8"></script>	
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	
+	
+	
+
+	</body>
+	
+
+</html>
